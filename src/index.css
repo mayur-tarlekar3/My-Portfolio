@@ -1,0 +1,30 @@
+@import "tailwindcss";
+
+/* 
+  Custom styles are removed for a cleaner, simpler layout.
+  Relying entirely on Tailwind classes for styling.
+*/
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Inter', system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: #0f172a; 
+}
+::-webkit-scrollbar-thumb {
+  background: #334155; 
+  border-radius: 5px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #8b5cf6; 
+}
