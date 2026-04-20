@@ -6,25 +6,25 @@ const certs = [
     title: "SQL and Relational Databases 101", 
     issuer: "IBM / Etrain Education", 
     date: "Dec 2025", 
-    image: "./cert-ibm.jpg"
+    image: `${import.meta.env.BASE_URL}cert-ibm.jpg`
   },
   { 
     title: "AWS Academy Graduate - Cloud Foundations", 
     issuer: "AWS Academy", 
     date: "Nov 2025", 
-    image: "./cert-aws.jpg"
+    image: `${import.meta.env.BASE_URL}cert-aws.jpg`
   },
   { 
     title: "Learn JAVA Programming - Beginner to Master", 
     issuer: "Udemy", 
     date: "Mar 2026", 
-    image: "./cert-java.png"
+    image: `${import.meta.env.BASE_URL}cert-java.png`
   },
   { 
     title: "GitGenius: Introduction to Git and GitHub", 
     issuer: "D.Y. Patil Agriculture and Technical University", 
     date: "2026", 
-    image: "./cert-git.jpg"
+    image: `${import.meta.env.BASE_URL}cert-git.jpg`
   },
 ];
 

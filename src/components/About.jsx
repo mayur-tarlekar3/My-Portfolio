@@ -21,7 +21,7 @@ export default function About({ dark }) {
             <div className="relative w-full max-w-sm">
               <div className="rounded-3xl overflow-hidden border-2 border-violet-500/30 shadow-2xl shadow-violet-600/10">
                 <img
-                  src="./profile.jpg"
+                  src={`${import.meta.env.BASE_URL}profile.jpg`}
                   alt="Mayur Tarleakar"
                   className="w-full object-cover"
                   onError={e => { e.currentTarget.style.display = "none"; e.currentTarget.nextSibling.style.display = "flex"; }}
