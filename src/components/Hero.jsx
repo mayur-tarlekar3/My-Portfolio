@@ -100,7 +100,7 @@ export default function Hero({ dark }) {
               {/* Photo */}
               <div className="relative w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden border-4 border-violet-500/40 shadow-2xl shadow-violet-600/20">
                 <img
-                  src="/profile.jpg"
+                  src="./profile.jpg"
                   alt="Mayur Tarleakar"
                   className="w-full h-full object-cover"
                   onError={e => { e.currentTarget.style.display = "none"; e.currentTarget.nextSibling.style.display = "flex"; }}
