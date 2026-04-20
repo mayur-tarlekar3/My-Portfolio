@@ -103,7 +103,6 @@ export default function Hero({ dark }) {
                   src={`${import.meta.env.BASE_URL}profile.jpg`}
                   alt="Mayur Tarleakar"
                   className="w-full h-full object-cover"
-                  onError={e => { e.currentTarget.style.display = "none"; e.currentTarget.nextSibling.style.display = "flex"; }}
                 />
                 {/* Fallback */}
                 <div className="hidden w-full h-full bg-gradient-to-br from-violet-600 to-indigo-700 items-center justify-center text-6xl font-black text-white">

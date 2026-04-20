@@ -24,7 +24,6 @@ export default function About({ dark }) {
                   src={`${import.meta.env.BASE_URL}profile.jpg`}
                   alt="Mayur Tarleakar"
                   className="w-full object-cover"
-                  onError={e => { e.currentTarget.style.display = "none"; e.currentTarget.nextSibling.style.display = "flex"; }}
                 />
                 {/* Fallback */}
                 <div className="hidden w-full h-72 bg-gradient-to-br from-violet-600 to-indigo-700 items-center justify-center text-8xl font-black text-white">
